@@ -110,7 +110,7 @@ const TopNav: React.FC = () => {
           open={Boolean(anchorEl)}
           onClose={handleClose}
         >
-          <MenuItem onClick={handleClose}>Profile</MenuItem>
+          <MenuItem onClick={handleClose}>Profile check here </MenuItem>
           <MenuItem onClick={handleClose}>My account</MenuItem>
         </Menu>
       </Toolbar>
