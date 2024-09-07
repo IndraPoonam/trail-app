@@ -10,10 +10,10 @@ class Counter extends Component<{}, CounterState> {
     };
   }
   increment = () => {
-    this.setState({ count: this.state.count + 2 });
+    this.setState({ count: this.state.count + 4 });
   };
   decrement = () => {
-    this.setState({ count: this.state.count - 2 });
+    this.setState({ count: this.state.count - 4 });
   };
   render() {
     return (
